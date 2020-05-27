@@ -30,9 +30,9 @@ export class Rows {
             const td = createElement("td")
 
             // Fixes #29
-            if (!row[i] || !row[i].length) {
-                row[i] = ""
-            }
+            // if (!row[i] || !row[i].length) {
+            //    row[i] = ""
+            // }
 
             td.innerHTML = row[i]
 
